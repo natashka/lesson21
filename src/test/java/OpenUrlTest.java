@@ -42,8 +42,11 @@ public class OpenUrlTest {
 
     @Test
     public void demo() {
-        driver.get("https://otus.ru/");
-        new Timeout(500);
+//        driver.get("https://otus.ru/");
+//        new Timeout(500);
+        logger.info("INFO");
+        logger.debug("test debug");
+        logger.info("INFO");
     }
 
     @After
