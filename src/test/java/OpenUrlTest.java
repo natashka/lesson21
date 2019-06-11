@@ -1,7 +1,6 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -11,8 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.Properties;
 
 public class OpenUrlTest {
     private static WebDriver driver;
