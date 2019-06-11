@@ -54,10 +54,6 @@ public class OpenUrlTest {
 
     }
 
-//    @Test
-//    public void debugLevel() {
-//        logger.log(Level.DEBUG, "Logger Name :: " + logger.getName() + " :: Passed Message ::");
-//    }
 
     @After
     public void teardown() {
