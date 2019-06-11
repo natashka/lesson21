@@ -20,10 +20,6 @@ public class OpenUrlTest {
 
     @BeforeClass
     public static void setup() {
-        Properties log4jProp = new Properties();
-        log4jProp.setProperty("log4j.rootLogger", "WARN");
-        PropertyConfigurator.configure(log4jProp);
-
 
         System.setProperty("webdriver.chrome.logFile", "resources/log4j2-test.xml");
         WebDriverManager.chromedriver().setup();
